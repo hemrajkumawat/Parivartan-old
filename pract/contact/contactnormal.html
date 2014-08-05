@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Contact</title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <script type="text/javascript" src="js/jquery.js"></script> 
+       <script type="text/javascript" src="js/jquery.form.js"></script> 
+
+        <script type="text/javascript">
+            $('document').ready(function()
+			{
+
+
+			
+	$('#form').ajaxForm( {
+        target: '#preview', 
+        success: function() { 
+        $('#formbox').slideUp('fast'); 
+        } 
+    }); 
+						
+            });
+        </script> 
+
+
+        <style type="text/css">
+		ul
+            {
+                list-style:none;
+                width:100%;
+                margin: 0;
+                padding: 0;
+            }
+            ul li
+            {	
+                padding-top:5px;
+                padding-bottom:5px;
+                margin-bottom:10px;
+                clear:left;
+                position: relative;
+
+            }
+            ul li label
+            {
+                width:20%;
+                display: block;
+                margin-right:2%;
+                text-align:left;
+                line-height:22px;
+            }
+            ul li span.error
+            {
+                font: 11px arial;
+                color:red;
+                margin-left:8px;
+                line-height:22px;
+            }
+            ul li span.passerror
+            {
+                display: block;
+                font: 11px arial;
+                color:red;
+                margin-left:8px;
+                line-height:22px;
+            }
+            ul li .shortfield{
+                width: 45px;
+            }
+         
+		 </style> 
+    </head> 
+    <body> 
+		<a href="http://9lessons.info">http://9lessons.info</a>
+	        <div id="preview"> </div>
+        <div id="formbox"> 
+            <form name="" id="form" action="submit.php" method="post">
+                <ul >
+                    <li>
+                        <label>Name</label>
+                        <input type="text" name="name" class="" maxlength="40" />
+                    </li>
+                    <li>
+                        <label>Email</label>
+                        <input type="text" name="email" class="" maxlength="100" />
+                    </li>
+                    <li>
+                        <label>Message</label>
+                        <textarea name="message" rows="5" cols="45" class=""></textarea>
+                    </li>
+                    <li>
+                        <label>&nbsp;</label>
+                        <input type="submit" value="Submit">
+                    </li>
+                </ul>
+            </form>            </div> 
+    </body> 
+</html> 

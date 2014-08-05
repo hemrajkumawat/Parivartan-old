@@ -1,0 +1,59 @@
+#emf-container{
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Verdana;
+}
+#emf-container li#emf-li-captcha #emf-captcha-top-settings{
+	background-color:#AAD6AA;
+	color:#FFFFFF;
+}
+
+#emf-container li#emf-li-captcha #emf-captcha-bottom-settings{
+	background-color:#cccccc;
+}
+
+#emf-container li#emf-li-captcha #emf-captcha-input-settings,
+#emf-container li#emf-li-captcha #emf-captcha-input-settings a{
+	color:#000000;
+}
+
+
+BODY{
+	margin-top:0px;
+	background-color: rgb(255, 255, 255);}
+#emf-container #emf-logo{
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	background-image: none; background-color: #ff00ff;}
+#emf-container #emf-logo a{
+	background-repeat:no-repeat;
+	text-indent:-99999px;
+	background-image: url(""); height: 40px;}
+#emf-container{
+	background-color: #ccc; border: 2px solid rgb(153, 153, 153);}
+#emf-container #emf-form-title{
+	font-size: 20px;}
+#emf-container #emf-form-description{
+	font-size: 15px;}
+#emf-container label.emf-label-desc, #emf-container div.emf-div-field label{
+	}
+#emf-container div.emf-div-field input,
+#emf-container div.emf-div-field textarea,
+#emf-container div.emf-div-field select{
+	}
+#emf-container #emf-form ul li.highlight-field{
+	}
+#emf-container-outer #emf-form-shadows{
+	display:block;
+	margin:0 auto;
+	height:9px;width:640px;
+	border:medium none;
+	visibility: visible;}
+#emf-container .emf-head-widget, #emf-container li .emf-section-separator{
+	}
+#emf-container li.emf-field-section_break div.emf-div-field-section h3{
+	}
+#emf-container li.emf-field-section_break .emf-section-text{
+	}
+#emf-container li .emf-div-instruction, #emf-container li .emf-div-field label.emf-bottom-label{
+	}

@@ -1,0 +1,96 @@
+/*
+Free PHP Theme by: Redefined Web Design
+Description: Designed by <a href="http://www.redefinedwebdesign.com">Dallas Web Design</a>
+Version: 2.0
+Author: <a href="http://www.redefinedwebdesign.com">Redefined Web Design</a>
+*/
+
+/* Some people like to have CSS Reset files. If you choose to use one, place it here above the general elements. */
+/* You will need to define some styles of the elements you reset below */
+ 
+
+/* General Elements */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 100%; 
+	background: #000; 
+	text-align: left; 
+	margin: 0px;	
+	padding: 0px; 
+	color: #FFF;
+}
+#header {
+	height: 115px;	
+	background: #000 url(/images/header.gif) no-repeat center;	
+	margin: 0px auto; 
+	text-align: center;
+}
+#navigation {
+	height: 21px; background: url(/images/navigation_background.gif) repeat-x; 
+	margin: 0px auto;	
+	text-align: center;	
+	padding: 7px 0px;
+}
+#navigation ul {margin: 0px;}
+#navigation ul li {
+	list-style: none; 
+	display: inline; 
+	padding: 0px 20px;
+}
+#navigation ul li a {
+	font-weight: bold;	
+	color: #FFF; 
+	text-decoration: none;
+}
+#wrapper {
+	margin: 0px auto;	
+	background: #000 repeat-x;
+}
+#container {
+	background: #3D0203; 
+	width: 900px;	
+	margin: 0px auto; 
+	overflow: hidden;
+}
+#mainContent {
+	padding: 10px 20px; 
+	background: #3D0203 url(/images/mainContent_background.gif) repeat-x; 
+	float: left; 
+	width: 560px;
+	min-height: 411px;
+}
+#sidebar {
+	padding: 10px 20px; 
+	background: #3D0203 url(/images/mainContent_background.gif) repeat-x; 
+	float: right; 
+	width: 259px; 
+	border-left: 1px solid #000;
+	}
+#sidebar a img{border: 1px solid #FFF;}
+#social {
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px 0px 10px;
+}
+#social a img {
+	padding: 0px 5px;
+	border: none;
+}
+#footer {
+	height: 17px; 
+	background: url(/images/footer_background.gif) repeat-x; 
+	text-align: center; 
+	margin: 0px auto; 
+	font-size: 80%; 
+	padding: 10px 0px; 
+	clear: both;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+h1 {font-size: 160%;}
+h2 {font-size: 140%;}
+h3 {font-size: 120%;}
+p {font-size: 90%;}
+a {text-decoration: none; color: #FFF;}
+#sidebar h3 {font-size: 110%; margin-bottom: -7px;}

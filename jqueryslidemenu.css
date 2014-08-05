@@ -1,0 +1,129 @@
+<div id="myslidemenu" class="jqueryslidemenu">
+<ul>
+<li><a href="http://www.dynamicdrive.com">Item 1</a></li>
+<li><a href="#">Item 2</a></li>
+<li><a href="#">Folder 1</a>
+  <ul>
+  <li><a href="#">Sub Item 1.1</a></li>
+  <li><a href="#">Sub Item 1.2</a></li>
+  <li><a href="#">Sub Item 1.3</a></li>
+  <li><a href="#">Sub Item 1.4</a></li>
+  </ul>
+</li>
+<li><a href="#">Item 3</a></li>
+<li><a href="#">Folder 2</a>
+  <ul>
+  <li><a href="#">Sub Item 2.1</a></li>
+  <li><a href="#">Folder 2.1</a>
+    <ul>
+    <li><a href="#">Sub Item 2.1.1</a></li>
+    <li><a href="#">Sub Item 2.1.2</a></li>
+    <li><a href="#">Folder 3.1.1</a>
+		<ul>
+    		<li><a href="#">Sub Item 3.1.1.1</a></li>
+    		<li><a href="#">Sub Item 3.1.1.2</a></li>
+    		<li><a href="#">Sub Item 3.1.1.3</a></li>
+    		<li><a href="#">Sub Item 3.1.1.4</a></li>
+    		<li><a href="#">Sub Item 3.1.1.5</a></li>
+		</ul>
+    </li>
+    <li><a href="#">Sub Item 2.1.4</a></li>
+    </ul>
+  </li>
+  </ul>
+</li>
+<li><a href="http://www.dynamicdrive.com/style/">Item 4</a></li>
+</ul>
+<br style="clear: left" />
+</div>
+.jqueryslidemenu{
+font: bold 12px Verdana;
+background: #008F00;
+width: 100%;
+}
+
+.jqueryslidemenu ul{
+margin: 1;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+display: block;
+background: #008F00; /*background of tabs (default state)*/
+color: 	#E60000;
+padding: 12px 50px;
+border-right: 0px solid #FFFF66;
+color: #2d2b2b;
+text-decoration: none;
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color: #FFFF66 ;
+
+}
+
+.jqueryslidemenu ul li a:hover{
+background: black; /*tab link background during hover state*/
+color: white;
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+font: normal 13px Verdana;
+width: 200px; /*width of sub menus*/
+padding: 10px;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid #0000B2;
+}
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+background: #008F00;
+color: green;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}

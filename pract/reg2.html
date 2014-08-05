@@ -1,0 +1,125 @@
+<form id="emf-form" enctype="multipart/form-data" method="post" action="going.php">
+  <table style="text-align:left;" cellpadding="2" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <td style="" colspan="2">
+        <font face="Verdana" size="2" color="#000000"><b style="font-size:20px;">Member registration form</b><br />
+        <br /></font>
+      </td>
+    </tr>
+	
+    <tr valign="top">
+      <td id="td_element_label_2" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>First</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_2" style="">
+        <input id="element_2" name="fname" value="" size="30" class="validate[required]" type="text" />
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td id="td_element_label_3" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Last</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_3" style="">
+        <input id="element_3" name="lname" value="" size="30" class="validate[required]" type="text" />
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    
+    
+    <tr valign="top">
+      <td id="td_element_label_5" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Email</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_5" style="">
+        <input id="element_5" name="email" class="validate[required,custom[email]]" value="" size="50" type="text" />
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Confirm</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td style="">
+        <input id="element_5_confirm" class="validate[confirm[element_5]]" value="" size="50" type="text" onpaste="return false;" />
+      </td>
+    </tr>
+    <tr valign="top">
+      <td id="td_element_label_6" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Contact</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_6" style="">
+        <input id="element_6" name="contact" class="validate[required,custom[telephone]]" value="" size="30" type="text" />
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td id="td_element_label_6" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Upload ypur photo</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_6" style="">
+        <input id="element_6" name="contact" class="validate[required,custom[telephone]]" value="" size="30" type="file" />
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td id="td_element_label_8" style="" align="">
+        <font face="Verdana" size="2" color="#000000"><b>Select the part of Parivartan in which you want to work .</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_8" style="">
+        <div style="width:100%;padding-bottom:5px;">
+          <input id="element_8_0" name="part" value="Educational" class="validate[required]" type="radio" /><font face="Verdana" size="2" color="#000000">&nbsp;Education
+          Awareness&nbsp;</font>
+        </div>
+          <div style="width:100%;padding-bottom:5px;">
+          <input id="element_8_2" name="part" value="Vocational" class="validate[required]" type="radio" /><font face="Verdana" size="2" color="#000000">&nbsp;vocational
+          Counselling&nbsp;</font>
+        </div>
+        <div style="width:100%;padding-bottom:5px;">
+          <input id="element_8_2" name="part" value="youth" class="validate[required]" type="radio" /><font face="Verdana" size="2" color="#000000">&nbsp;youth
+          Counselling&nbsp;</font>
+        </div>
+        <div style="width:100%;padding-bottom:5px;">
+          <input id="element_8_3" name="part" value="Health" class="validate[required]" type="radio" /><font face="Verdana" size="2" color="#000000">&nbsp;Health&nbsp;</font>
+        </div>
+        <div style="width:100%;padding-bottom:5px;">
+          <input id="element_8_4" name="part" value="Relation" class="validate[required]" type="radio" /><font face="Verdana" size="2" color="#000000">&nbsp;Public Relation&nbsp;</font>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td id="td_element_label_9" style="" align="">
+        <font face="Verdana" size="2" color="#ffff88"><b>Why you want to choose Parivartan</b></font> <span style="color:red;"><small>*</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td id="td_element_field_9" style="">
+        <textarea id="element_9" name="msg" value="" cols="45" rows="10" class="validate[required]">
+</textarea>
+        <div style="padding-bottom:8px;color:#000000;"></div>
+      </td>
+    </tr>
+   
+    <tr>
+      <td colspan="2" align="center">
+        <input name="element_counts" value="11" type="hidden" /> <input name="embed" value="forms" type="hidden" /><input value="Register" type="submit" />
+      </td>
+    </tr>
+  </table>
+</form>

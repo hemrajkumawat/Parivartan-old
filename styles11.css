@@ -1,0 +1,381 @@
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/stp.png);
+	line-height: 18px;
+}
+
+#bg {    
+		background-image:url('images/bg.png');
+		background-repeat:no-repeat;
+		background-attachment:fixed;		
+}
+
+#bg_top_bg { background: url(images/bg.jpg) repeat-x;
+			
+			}
+#bg_logo{
+			background: url(images/12.jpg) no-repeat;
+			
+}
+#iitj_logo{
+			background: url(images/lo.jpg) right top no-repeat;
+			}
+
+#bg_top { background: url(images/bg_top.jpg) center top no-repeat;}
+
+#bg_bot { background: url(images/bg_bot.png) center bottom no-repeat ;}
+	
+#main {
+	width: 988px;
+	background:url(images/main.jpg) right top no-repeat;
+	margin: 0px auto;
+}
+
+#header { 
+	top: 0px;
+	left:0px;
+	width:1000px;
+	
+}
+
+#logo {	
+		padding: 0px 0px 0px 20px;
+}
+
+#logo H2 {
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#dddddd;
+		font-size:18px;
+		font-style:italic;
+		background: no-repeat;
+		}
+
+#logo a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 14px;
+	color: #dddddd;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+	text-align:left;
+}
+
+#buttons{
+	text-align:center;
+	height: 82px;
+	padding-left: 20px;
+	background: url(images/buttons.png) left top no-repeat;
+	padding: 0px 0px 0px 100px;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #66FF66;
+	text-align: center;
+	padding-top: 40px;
+	height: 60px;
+	
+}
+
+.but {
+	width: 150px;
+}
+
+#buttons .but:hover {
+	background: url(images/but_hover.png) center center no-repeat;
+	color:#000000;
+	}
+	
+.but_t {background: url(images/but_hover.gif) center bottom no-repeat;}
+
+
+	
+.top {
+	height:408px;
+	width: 984px;
+	margin-top: 0px;
+	background-image: url(images/top.jpg);
+	background-repeat: no-repeat;
+	background-position: 2px;
+}
+	
+	
+}
+
+		
+.circl_all {
+		height: 58px; 
+		vertical-align:top;
+		padding: 27px 0px 0px 113px;
+		background: url(images/circl_all.png) 113px 27px no-repeat; }
+
+.circl {
+	height: 21px;
+	width: 21px;
+	margin: 0px 102px 0px 0px;
+	float: left;
+	display:block; }
+.circl:hover {
+	background: url(images/circl_hover.png) left top no-repeat; }
+
+
+
+#content{
+	background: url(images/content.png);
+	padding: 0px 0px 0px 0px;
+	color: #000000;
+}
+
+.razd_h { height: 30px;
+			background: url(images/razd_h.gif) 15px repeat-x;}
+
+.home_box1 {
+	float: left;
+	width: 330px;
+	padding: 13px 15px 13px 15px;
+	}
+.home_box2 {
+	float: left;
+	width: 288px;
+	padding: 13px 15px 13px 150px;
+	}
+	
+.all_box {background: url(images/all_box.gif)  left repeat-y;
+			}
+	
+.razd_lr_h { background: url(images/razd_lr.gif) 620px repeat-y;}
+
+.razd_lr { background: url(images/razd_lr.gif) 657px repeat-y;}
+
+
+#left{
+	width: 640px;
+	float: left;
+	margin-left: 0px;
+}
+
+
+#left_h{
+	width: 590px;
+	float: left;
+	margin-left: 0px;
+}
+
+.text{
+	padding: 0px 0px 15px 0px;
+}
+
+.img_l {	float:left;
+		margin: 5px 22px 3px 0px;
+}
+.img_2 {	float:left;
+		margin: 5px 22px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 9px 10px 3px 10px;
+}
+
+
+ h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: 100;
+	color: #000000;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height:normal;
+}
+
+.read {
+	font-size:12px;
+	color: #ff00ff;
+	text-decoration: none;
+	display:block;
+	line-height: 17px;
+	width: 66px;
+	text-align: center;
+	float: right;
+	font-weight:bold;
+	font-style: italic;
+	
+}
+
+.read:hover {
+	font-size:12px;
+	text-decoration: underline;
+}
+
+.box_more {
+	background:url(images/box_more.png) left top no-repeat;
+	height:	111px;
+	padding: 0px 15px 0px 15px;
+
+	}
+.box_more_l { float:left;
+				width: 780px;
+				padding-top: 15px;
+				color: #000000;
+				font-size: 18px;
+				line-height: 25px;
+				}
+				
+.box_more_r { float: right;
+				width: 155px;
+				padding-top: 30px;
+				}
+.but_more {
+	width: 156px;
+	height: 30px;
+	padding-top: 13px;
+	background: url(images/but_more.gif) left top no-repeat;
+	display:block;
+	font-size:18px;
+	color:#FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	}
+	
+.but_more:hover {
+	background: url(images/but_more_hov.gif) left top no-repeat;}
+
+#update{
+position:absolute;
+padding-left:800px;
+top: 200px;
+left:5; 
+
+}
+#link1{
+position:absolute;
+padding-left:800px;
+top: 100px;
+left:5; 
+
+}
+#link2{
+position:absolute;
+padding-left:800px;
+top: 150px;
+left:5; 
+
+}
+	
+
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    width: 700px;
+    height: 378px;
+    margin:15 auto;
+	padding-top: 15px;
+}
+
+#slider {
+	position:relative;
+    width: 700px;
+    height: 378px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left: 400px;
+	bottom:-52px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/circl.jpg) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+		background:url(images/circl_hover.png) no-repeat;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+/*=== Footer ===*/
+#footer { 
+		 
+		color:#727272; 
+		  background:#232323 url(images/footer_bg.gif) top repeat-x; 
+		  text-decoration:none; 
+		  font-size:11px; 
+		  margin:0 auto; 
+		  padding:0; }
+.footer_resize { width:1345px; margin:0 auto;}
+#footer a { color:#727272; font-weight: bold; }
+#footer a:hover { text-decoration:underline;}
+#footer .text { padding:15px 0; float:left; padding:20px 0; }
+#footer .text2 { font-size:14px; float:center; padding-top:20px;}
+#footer .text3 { font-size:16px; float:right; padding:20px;}
+

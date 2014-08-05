@@ -1,0 +1,29 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/photo_click.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+#gallery {width:810px; height:420px; position:relative; border:0px solid #ddd; background:#F5F5F0;}
+#gallery ul {list-style:none; padding:5px; margin:0; width:195px; float:right; height:219px; overflow:auto;}
+#gallery ul li {display:inline; width:50px; height:50px; float:left; margin:0 4px 4px 0; border:1px solid #444; cursor:pointer;}
+#gallery ul li img {display:block; width:50px; height:50px;}
+#gallery ul li span {display:none; position:absolute; left:607px; top:235px; width:200px;font-family:verdana, arial, sans-serif; color:#06a; font-size:13px; line-height:15px; text-align:justify;}
+#gallery ul li span b {color:#333;}
+
+/* required for IE5.x and IE6 to display the start image size correctly */
+#gallery ul li.click i img.default {margin:5px auto 0 auto; width:550px; height412px; border:1px solid #fff;}
+
+#gallery ul li.off {display:none;}
+
+#gallery ul li.click {border-color:#fc0; background:#f8f8f8; cursor:default;}
+
+#gallery ul li.click i {position:absolute; left:0; top:0; width:605px; height:415px;}
+
+#gallery ul li.click i img {margin:5px auto 0 auto; width:auto; height:auto; border:2px solid #fff;}
+
+#gallery ul li.click span {display:block;}
